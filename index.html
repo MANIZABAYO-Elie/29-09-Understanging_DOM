@@ -14,12 +14,24 @@
        
         <form id="form" action="/">
         <h2>Registration</h2>
-        <label for="first name" name="username">USER NAME</label>
-        <input type="text" id="username">
-        <label for="email" name="email">Email</label>
-        <input type="email" id="email"><br>
-        <label for="password" name="password">ENTER PASSWORD</label>
-        <input type="password" id="password"><br>
+
+        <div class="input-control">
+          <label for="first name" name="username">USER NAME</label>
+          <input type="text" id="username">
+          <div class="error"></div>
+
+        </div>
+        <div class="input-control">
+            <label for="email" name="email">Email</label>
+            <input type="email" id="email"><br>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+           <label for="password" name="password">ENTER PASSWORD</label>
+           <input type="password" id="password"><br>
+           <div class="input-control"></div>
+
+        </div>
         <button type="submit">SIN UP </button>
     </form>
     </div>
