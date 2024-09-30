@@ -4,3 +4,6 @@
 //     console.log('hello world');
 //     heading.style.display = 'block'
 // })
+
+const form = document.getElementById('form');
+const username = document.getElementById('username')
