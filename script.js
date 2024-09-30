@@ -30,22 +30,24 @@ const validateInputs = ()=>{
     const emailError = document.querySelector('.email-error');
     if(emailValue===""){
       emailError.style.display= 'block'
-    }else{
-        emailErrorError.style.display = 'none';
-    }
+    
     }
    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return emailPattern.test(email).toLowerCase();
-    if(passwordValue.length<8){
+    
+
+    }
+    if(passwordValue===""){
         const passwordError = document.querySelector('.password-error');
         passwordError.style.display= 'block';
+    }else if(passwordValue.length<8){
+        
 
     }else{
         passwordError.style.display= 'none';
 
     }
-
-    }
+}
     
     
    
