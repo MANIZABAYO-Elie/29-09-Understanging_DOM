@@ -11,3 +11,10 @@ body{
     display: block;
     margin: 10vh;
 }
+.error{
+    color: red;
+
+}
+.username-error,.email-error,.password-error{
+    display: none;
+}
