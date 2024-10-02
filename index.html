@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validation form</title>
+  </head>
+  <body>
     <!-- <button id="btn">SUBMIT</button>
     <h1 class="title">THANK YOU FOR REACHING WITH US </h1> -->
     <div class="container">
-       
-        <form id="form" action="/">
+      <form id="form" action="">
         <h2>Registration</h2>
 
         <div class="input-control">
           <label for="first name" name="username">USER NAME</label>
-          <input type="text" id="username">
-          <div class="error username-error"> please enter a valid username</div>
-
+          <input type="text" id="username" />
+          <div class="error username-error">please enter a valid username</div>
         </div>
         <div class="input-control">
-            <label for="email" name="email">Email</label>
-            <input type="email" id="email"><br>
-            <div class="error email-error">please enter a valid email</div>
+          <label for="email" name="email">Email</label>
+          <input type="email" id="email" /><br />
+          <div class="error email-error">please enter a valid email</div>
         </div>
         <div class="input-control">
-           <label for="password" name="password">ENTER PASSWORD</label>
-           <input type="password" id="password"><br>
-           <div class="error password-error">Please input a valid password</div>
-
+          <label for="password" name="password">ENTER PASSWORD</label>
+          <input type="password" id="password" /><br />
+          <div class="error password-error">Please input a valid password</div>
         </div>
-        <button type="submit">SIN UP </button>
-    </form>
+        <button type="submit">SIN UP</button>
+      </form>
     </div>
-
-<script src="script.js">
-
-</script>   
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
